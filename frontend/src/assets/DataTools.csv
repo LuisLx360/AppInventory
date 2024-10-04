@@ -1,0 +1,25 @@
+id;description;barcode;status;url_foto;created_at
+1;Destornillador;1234567890156;A;https://www.grupo-jarama.com/uploads/images/3/tipos-destornilladores.jpg;2024-09-05T06:30:00.000Z
+2;Martillo;1234567890158;A;https://example.com/martillo.jpg;2024-09-05T07:00:00.000Z
+3;Taladro;1234567890153;A;https://example.com/taladro.jpg;2024-09-05T07:30:00.000Z
+4;Sierra;1234567890160;A;https://example.com/sierra.jpg;2024-09-05T08:00:00.000Z
+5;Lijadora;1234567890161;A;https://example.com/lijadora.jpg;2024-09-05T08:30:00.000Z
+6;Broca;1234567890162;A;https://example.com/broca.jpg;2024-09-05T09:00:00.000Z
+7;Cinta métrica;1234567890163;A;https://example.com/cinta.jpg;2024-09-05T09:30:00.000Z
+8;Nivel de burbuja;1234567890164;A;https://example.com/nivel.jpg;2024-09-05T10:00:00.000Z
+9;Pinzas;1234567890165;A;https://example.com/pinzas.jpg;2024-09-05T10:30:00.000Z
+10;Alicates;1234567890166;A;https://example.com/alicates.jpg;2024-09-05T11:00:00.000Z
+11;Llave inglesa;1234567890167;A;https://example.com/llave.jpg;2024-09-05T11:30:00.000Z
+12;Llave de tubo;1234567890168;A;https://example.com/llave_tubo.jpg;2024-09-05T12:00:00.000Z
+13;Cortadora;1234567890169;A;https://example.com/cortadora.jpg;2024-09-05T12:30:00.000Z
+14;Destornillador Phillips;1234567890170;A;https://example.com/destornillador_phillips.jpg;2024-09-05T13:00:00.000Z
+15;Destornillador plano;1234567890171;A;https://example.com/destornillador_plano.jpg;2024-09-05T13:30:00.000Z
+16;Esmeriladora;1234567890172;A;https://example.com/esmeriladora.jpg;2024-09-05T14:00:00.000Z
+17;Compresora;1234567890173;A;https://example.com/compresora.jpg;2024-09-05T14:30:00.000Z
+18;Generador;1234567890174;A;https://example.com/generador.jpg;2024-09-05T15:00:00.000Z
+19;Sierra de calar;1234567890175;A;https://example.com/sierra_calar.jpg;2024-09-05T15:30:00.000Z
+21;Compás;1234567890177;A;https://example.com/compas.jpg;2024-09-05T16:30:00.000Z
+22;Cortador de azulejos;1234567890178;A;https://example.com/cortador_azulejos.jpg;2024-09-05T17:00:00.000Z
+23;Pistola de pegamento;1234567890179;A;https://example.com/pistola_pegamento.jpg;2024-09-05T17:30:00.000Z
+24;Llave de ajustable;1234567890180;A;https://example.com/llave_ajustable.jpg;2024-09-05T18:00:00.000Z
+25;Escuadra;1234567890181;A;https://example.com/escuadra.jpg;2024-09-05T18:30:00.000Z

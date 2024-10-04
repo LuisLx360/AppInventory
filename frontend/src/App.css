@@ -1,0 +1,359 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.main {
+  padding-top: 60px;
+}
+
+.img-background {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center right;
+  background-color: whitesmoke;
+  position: absolute;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.img-home {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center right;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 92%;
+  height: 100%;
+  width: 100%;
+}
+
+
+.body-text {
+  position: absolute;
+  bottom: 60%;
+  right: 65%;
+  width: 50vh;
+  height: 10vh;
+  font-size: 45px;
+}
+
+.body-description {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.login-container {
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: absolute;
+  left: 165px;
+  top: 225px;
+  background-color: rgb(214, 245, 151);
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 45%;
+  right: 70%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group .form-input {
+  width: 350px;
+  height: 60px;
+  font-size: 17px;
+  padding: 0 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+.btn-submit {
+  width: 100%;
+  height: 60px;
+  background: #222;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+.btn-submit:hover {
+  background: #000;
+}
+
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-body {
+  opacity: 1;
+  background-color: whitesmoke;
+}
+
+.navbar>.container {
+  margin-left: 120px;
+  margin-right: 18%;
+}
+
+.logout-link {
+  color: #61dafb;
+}
+
+
+.table {
+  margin-top: 76px;
+}
+
+.col-table {
+  width: 100vh;
+}
+
+.button-table {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-trs {
+  margin: 0;
+  font-size: 20px;
+}
+
+.body-inventory {
+  position: absolute;
+  right: 22%;
+  bottom: 40%;
+}
+
+.container-box {
+  display: flex;
+  justify-content: center;
+}
+
+.button-box {
+  margin: 60px 105px;
+}
+
+.inventory-buttons {
+  width: 320px;
+  height: 200px;
+}
+
+.inventory-container {
+  position: absolute;
+  top: 16%;
+  right: 15%;
+}
+
+.tool-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.tool-inputm {
+  width: 60vh;
+  height: 10vh;
+  font-weight: 1000;
+  margin-bottom: 50px;
+}
+
+.tool-inputm.form-control.form-control-lg {
+  font-size: 25px;
+}
+
+.tool-inputm.form-select {
+  font-size: 25px;
+}
+
+
+.export-button {
+  width: 390px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 37%;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 5px;
+  font-size: 30px;
+  background-image: linear-gradient(to right, #ffc107, #ffda4e);
+}
+
+.export-button:hover {
+  background-image: linear-gradient(to right, #ffb200, #ffda4e);
+}
+
+.choose-button {
+  margin: 0 7%;
+  height: 120px;
+  width: 280px;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 30px;
+  background-image: linear-gradient(to right, #6c757d, #adb5bd);
+}
+
+.choose-button:hover {
+  background-image: linear-gradient(to right, #848b92, #adb5bd);
+}
+
+.export-tittle {
+  font-size: 40px;
+  position: fixed;
+  right: 30%;
+  top: 12%;
+}
+
+.export-box {
+  height: 60vh;
+  right: 12%;
+  position: absolute;
+  bottom: 12%;
+  width: 155vh;
+}
+
+.toolmanager-button {
+  position: fixed;
+  bottom: 10%;
+  width: 25%;
+  height: 10%;
+  font-size: 35px;
+  background-image: linear-gradient(to right, #ffc107, #ffda4e);
+}
+
+.toolmanager-button:hover {
+  background-image: linear-gradient(to right, #ffb200, #ffda4e);
+}
+
+.img-fluid {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  width: 37%;
+}
+
+.container-imgfluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+
+@media (max-width: 1366px) {
+  .form-container{
+    bottom: 40%;
+    right: 64%;
+  }
+
+  .body-text {
+    right: 54%;
+    width: 80vh;
+
+  }
+  
+  .img-home{
+    max-height: 88%;
+  }
+
+  .navbar > .container{
+    margin-right: 0%;
+  }
+
+
+  .body-inventory{
+    right: 11%;
+    bottom: 25%;
+  }
+
+  .inventory-container{
+    right: 7%;
+  }
+
+  .img-fluid{
+    width: 30%;
+  }
+
+  .toolmanager-button{
+    bottom: 8%;
+    width: 18%;
+  }
+
+  .export-tittle{
+    font-size: 30px;
+    right: 29%;
+    top: 14%;
+  }
+
+  .choose-button{
+    margin: 0 2%;
+    height: 100px;
+    width: 276px;
+    font-size: 20px;
+  }
+
+  .export-button{
+    width: 350px;
+    height: 175px;
+    right: 33%;
+    font-size: 25px;
+  }
+}
